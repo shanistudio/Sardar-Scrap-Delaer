@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Sardar Scrap Dealer for quote requests, scrap pickup, and recycling service inquiries in Pakistan." />
+  <title>Contact | Sardar Scrap Dealer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inner-page">
+  <header class="site-header page-header">
+    <a class="logo" href="index.html"><span data-bind="brand-short">SARDAR</span><small data-bind="brand-long">SCRAP DEALER</small></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="materials.html">Materials</a>
+      <a href="buy-scrap.html">Buy Scrap</a>
+      <a href="sell-scrap.html">Sell Scrap</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="quote.html">Get a Quote</a>
+    </nav>
+  </header>
+
+  <section class="page-hero dark">
+    <div class="page-hero-inner">
+      <p class="eyebrow">Contact us</p>
+      <h1>Let’s discuss<br><span class="em">your scrap needs.</span></h1>
+    </div>
+  </section>
+
+  <main class="page-shell contact-page">
+    <div class="contact-panel">
+      <div class="contact-block">
+        <p class="eyebrow">WhatsApp</p>
+        <a data-bind="whatsapp" href="https://wa.me/923004050822">+92 300 4050822</a>
+      </div>
+      <div class="contact-block">
+        <p class="eyebrow">Phone</p>
+        <a data-bind="phone" href="tel:+923004050822">+92 300 4050822</a>
+      </div>
+      <div class="contact-block">
+        <p class="eyebrow">Email</p>
+        <a data-bind="email" href="mailto:4uproduction786@gmail.com">4uproduction786@gmail.com</a>
+      </div>
+      <div class="contact-block">
+        <p class="eyebrow">Location</p>
+        <p data-bind="location">LDA Evenew 1, Riwand Road, Lahore</p>
+      </div>
+    </div>
+
+    <form class="booking-form" data-form="lead">
+      <label>Your Name<input type="text" placeholder="Your full name" required /></label>
+      <label>Phone Number<input type="tel" placeholder="+92 300 4050822" required /></label>
+      <label>Email Address<input type="email" placeholder="you@example.com" /></label>
+      <label>Select Service<select data-role="service-select"></select></label>
+      <label>Message<textarea placeholder="Tell us about your scrap requirement..."></textarea></label>
+      <button class="button button-gold" type="submit">Send enquiry</button>
+      <p class="form-status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer>
+    <a class="logo" href="index.html"><span>SARDAR</span><small>SCRAP DEALER</small></a>
+    <p data-bind="tagline">We Buy, Sell & Recycle All Types of Scrap.</p>
+    <p>© 2026 Sardar Scrap Dealer</p>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

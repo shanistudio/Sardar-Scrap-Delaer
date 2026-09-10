@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sell your old scrap to Sardar Scrap Dealer. Request a quote, arrange pickup, and share scrap photos for a fast evaluation." />
+  <title>Buy Scrap | Sardar Scrap Dealer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inner-page">
+  <header class="site-header page-header">
+    <a class="logo" href="index.html"><span data-bind="brand-short">SARDAR</span><small data-bind="brand-long">SCRAP DEALER</small></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="materials.html">Materials</a>
+      <a href="buy-scrap.html">Buy Scrap</a>
+      <a href="sell-scrap.html">Sell Scrap</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="quote.html">Get a Quote</a>
+    </nav>
+  </header>
+
+  <section class="page-hero dark">
+    <div class="page-hero-inner">
+      <p class="eyebrow">Sell your scrap</p>
+      <h1>Sell your old scrap<br><span class="em">to us today.</span></h1>
+    </div>
+  </section>
+
+  <main class="page-shell booking-page">
+    <form class="booking-form" data-form="lead">
+      <div class="form-row">
+        <label>Material Type<select data-role="material-select"></select></label>
+        <label>Approximate Quantity<select data-role="quantity-select"></select></label>
+      </div>
+      <div class="form-row">
+        <label>Customer Name<input type="text" placeholder="Your name" required /></label>
+        <label>Phone / WhatsApp<input type="tel" placeholder="+92 300 4050822" required /></label>
+      </div>
+      <div class="form-row">
+        <label>Location<input type="text" placeholder="Your city or area" required /></label>
+        <label>Pickup Required<select><option>Yes</option><option>No</option></select></label>
+      </div>
+      <label>Upload Scrap Photos<input type="file" accept="image/*" multiple /></label>
+      <label>Message<textarea placeholder="Tell us about your scrap and material condition..."></textarea></label>
+      <button class="button button-gold" type="submit">Request Scrap Quote</button>
+      <p class="form-status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer>
+    <a class="logo" href="index.html"><span>SARDAR</span><small>SCRAP DEALER</small></a>
+    <p data-bind="tagline">We Buy, Sell & Recycle All Types of Scrap.</p>
+    <p>© 2026 Sardar Scrap Dealer</p>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
